@@ -8,7 +8,7 @@
                 <h3 class="card-title">Edit Data</h3>
 
             </div>
-            <form method="POST" action="/superadmin/pemeliharaan/edit/{{$data->id}}">
+            <form method="POST" action="/superadmin/pengadaan/edit/{{$data->id}}">
                 @csrf
                 <div class="card-body">
                     <div class="form-group">
@@ -51,7 +51,7 @@
 
                 <div class="card-footer">
                     <button type="submit" class="btn btn-outline-primary">Update</button>
-                    <a href="/superadmin/pemeliharaan" class="btn btn-outline-danger">Kembali</a>
+                    <a href="/superadmin/pengadaan" class="btn btn-outline-danger">Kembali</a>
                 </div>
             </form>
             <!-- /.card-body -->
