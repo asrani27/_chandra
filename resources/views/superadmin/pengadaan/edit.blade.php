@@ -28,24 +28,16 @@
                             @endforeach
                         </select>
                     </div>
+
                     <div class="form-group">
                         <label for="exampleInputEmail1">jenis</label>
-                        <input type="text" name="jenis" class="form-control" value="{{$data->jenis}}">
+                        <input type="text" name="jenis" class="form-control" required value="{{$data->jenis}}">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">keterangan</label>
-                        <input type="text" name="keterangan" class="form-control" value="{{$data->keterangan}}">
+                        <label for="exampleInputEmail1">spesifikasi</label>
+                        <input type="text" name="spesifikasi" class="form-control" required
+                            value="{{$data->spesifikasi}}">
                     </div>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">biaya</label>
-                        <input type="text" name="biaya" class="form-control" value="{{$data->biaya}}"
-                            onkeypress="return hanyaAngka(event)">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">aksi</label>
-                        <input type="text" name="aksi" class="form-control" value="{{$data->aksi}}">
-                    </div>
-
                 </div>
                 <!-- /.card-body -->
 
